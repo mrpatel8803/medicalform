@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>Registraion form</title>
+</head>
+
+<body>
+    <h1>RESGISTRATION FORM</h1>
+    <form>
+        <div class="name">
+            First name:<br> <input type="text" id="First name" placeholder="First Name"><br>
+            Middle name:<br> <input type="text" id="Middle name"><br>
+            Last name:<br> <input type="text" id="Last name"><br><br>
+        </div>
+
+        <div class="mail">
+            E-mail: <input type="email" id="email"><br><br>
+        </div>
+
+        <div class="contact">
+            phone number: <input type="number" id="number" maxlength="10"><br><br>
+        </div>
+
+        <div class="birth">
+            Birthdate: <input type="date" id="date"><br><br>
+        </div>
+
+        <div class="appointment">
+            Appointment Time: <input type="time" id="time"><br><br>
+        </div>
+
+        <div class="color">
+            Favorite Color: <input type="color" id="color"><br><br>
+        </div>
+
+        <div class="payment">
+            Payment Method:
+            <input type="radio" id="Cash" value="Cash" name="Cash">Cash
+            <input type="radio" id="Card" value="Card" name="Cash">Card
+            <input type="radio" id="Upi" value="Upi" name="Cash">Upi<br><br>
+        </div>
+
+        <div class="age">
+            Age: <input type="range" id="range"><br><br>
+        </div>
+
+        <div class="box">
+            Cheackbox Options: <br><input type="checkbox" id="Cheackbox">Medicine<br><br>
+                               <input type="checkbox" id="Cheackbox">Syrup<br><br>
+                               <input type="checkbox" id="Cheackbox">Capsual<br><br>
+        </div>
+
+        <div class="photo">
+            Upload Photo: <input type="file" id="file"><br><br>
+        </div>
+
+        <div class="button">
+            <input type="button" value="submit">
+            <input type="button" value="Reset"> <br><br>
+        </div>
+    </form>
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
